@@ -1,4 +1,4 @@
-console.log(customers);
+console.log(customers.results[0].id.value);
 
 
 let container = document.querySelector(".container");
@@ -17,6 +17,9 @@ for (var i = 0; i < customers.results.length; i++) {
                 <p>${customers.results[i].location.street}</p>
                 <p>${customers.results[i].location.city}, ${customers.results[i].location.state} ${customers.results[i].location.postcode}</p>
                 <p>${customers.results[i].phone}</p>
+              </div>
+              <div>
+              <p id="ssn">${customers.results[i].id.value}</p>
               </div>
               </div>`;
 

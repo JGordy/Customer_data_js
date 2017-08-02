@@ -38,7 +38,7 @@ h1 {
 }
 
 h3 {
- border-bottom: 1px solid green;
+ border-bottom: 2px solid green;
  padding-bottom: 5px;
  margin-bottom: 5px;
 }
@@ -55,4 +55,18 @@ p {
 
 img {
   width: 100%;
+}
+
+#ssn {
+  text-align: center;
+  margin-top: 20px;
+  color: transparent;
+  text-shadow: 0 0 5px aquamarine;
+  opacity: 0.5;
+}
+
+#ssn:hover {
+  color: lime;
+  text-shadow: none;
+  opacity: 1.0;
 }
