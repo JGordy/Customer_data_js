@@ -1,0 +1,32 @@
+/** {
+  border: 1px solid red;
+}*/
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#customer {
+  margin: 20px;
+  flex: 1 1 20%;
+}
+
+#info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#location {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h3 {
+  text-transform: capitalize;
+}
